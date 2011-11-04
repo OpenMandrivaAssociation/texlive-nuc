@@ -1,3 +1,9 @@
+# revision 22256
+# category Package
+# catalog-ctan /macros/latex/contrib/nuc
+# catalog-date 2011-04-28 12:45:40 +0200
+# catalog-license lppl
+# catalog-version 0.1
 Name:		texlive-nuc
 Version:	0.1
 Release:	1
@@ -42,6 +48,7 @@ properly; this spacing is supported in the package.
 %doc %{_texmfdistdir}/doc/latex/nuc/README
 %doc %{_texmfdistdir}/doc/latex/nuc/nuc.pdf
 %doc %{_texmfdistdir}/doc/latex/nuc/nuc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ properly; this spacing is supported in the package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
