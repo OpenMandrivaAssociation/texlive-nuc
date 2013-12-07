@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-nuc
 Version:	0.1
-Release:	4
+Release:	5
 Summary:	Notation for nuclear isotopes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nuc
