@@ -1,6 +1,6 @@
 Name:		texlive-nuc
 Version:	22256
-Release:	1
+Release:	2
 Summary:	Notation for nuclear isotopes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nuc
